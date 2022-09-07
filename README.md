@@ -5,6 +5,7 @@ several functions that are not operational without execution of the TestEmp scri
 to be called externally with variables that would be passed into them. If being used practically, they will need to be slightly modified. 
 
 DDL Folder
+
 	ddl.sql-		This script constructs the database and all of its contained tables, as well as some tables with 
 				predetermined data that is used for calculations later on.
 				
