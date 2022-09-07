@@ -4,7 +4,7 @@ will be further described below. Although the Database and functions are mostly 
 several functions that are not operational without execution of the TestEmp script, this is because the functions were created
 to be called externally with variables that would be passed into them. If being used practically, they will need to be slightly modified. 
 
-DDL Folder
+DDL
 
 	ddl.sql-		This script constructs the database and all of its contained tables, as well as some tables with 
 				predetermined data that is used for calculations later on.
@@ -18,7 +18,7 @@ DDL Folder
 	TestEmp.sql-	Creates a temporary table containing values used in several functions, in a practical scenario,
 				these variables would be imported via other methods such as a card reader or a command
 
-Functions Folder
+Functions
 
 	add employee-
 		adds an employee with values contained in the scripts that can be modified
